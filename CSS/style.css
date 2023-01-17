@@ -234,14 +234,14 @@ section{
 }
 
 .servicos .box-container h3{
-    font-size: 2rem;
+    font-size: 2.5rem;
     padding: 0rem 11.5rem;
     text-transform: capitalize;
 
 }
 
 .servicos .box-container p{
-    font-size: 1.5rem;
+    font-size: 2rem;
     padding: 0rem 10rem;
 
 }
@@ -260,7 +260,7 @@ section{
 }
 
 .text p{    
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-weight: 200;
     padding: 1rem 0rem;
     text-align: justify; text-transform: none;
