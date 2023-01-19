@@ -234,13 +234,13 @@ section{
 }
 
 .servicos .box-container h3{
-    font-size: 1.4rem;
+    font-size: 1.5rem;
     padding: 0rem 11.5rem;
     text-transform: capitalize;
 }
 
 .servicos .box-container p{
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     padding: 0rem 10rem;
 }
 
@@ -248,7 +248,7 @@ section{
     margin-top: 1rem;
     display: inline-block;
     padding: 0rem 14rem;
-    font-size: 1.2rem;    
+    font-size: 1.3rem;    
     color:var(--red);
     cursor: pointer;
 }
