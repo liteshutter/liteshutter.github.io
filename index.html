@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset=utf-8>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width-device-width, initial-scale=1.0">
+        <title>LiteShutter</title>
+        
+        <link rel="icon" href="IMG/LOGO/favi.png" type="image/png">
+
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+        
+        <!--cdn font link-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+        
+        <!--css file link-->
+        <link rel="stylesheet" href="CSS/_style.css">
+        
+    </head>
+    <body>
+        <!-- header starts -->
+
+        <header id="header">
+            <a href="https://liteshutter.github.io/liteshutter" class="logo"> <img src="IMG/LOGO/lshutter.png" alt="LITESHUTTER" width="120px"></a>
+                    
+            <div class="icons">
+                <div class="fas fa-bars" id="menu-btn" href="IMG/LOGO/menu_16.png"></div>
+            </div>
+            
+            <nav class="navbar">
+                <a href="https://liteshutter.github.io/liteshutter#home"> <span>início</span></a>
+                <a href="https://liteshutter.github.io/liteshutter#servicos">serviços</a>
+                <a href="https://liteshutter.github.io/liteshutter#portfolio">portfólio</a>
+                <a href="https://liteshutter.github.io/liteshutter#contactos">contactos</a>
+            </nav>
+
+        </header>
+
+        <!-- header ends -->
+
+        <!-- home section starts -->
+        
+        <section class="home" id="home">
+            <div class="content">                
+                <button id="btn" onclick="openChat()">Marque Já</button>
+            </div>
+        </section>
+        
+        <div class="container">
+            <div class="img-gallery">
+                <a href="IMG/LS/erica/img-1.jpg" class="img-1">
+                    <i class="icon ion-md-expand"></i>
+                </a>
+                 <a href="IMG/LS/erica/img-2.jpg" class="img-2">
+                    <i class="icon ion-md-expand"></i>
+                </a> 
+                 <a href="IMG/LS/erica/img-3.jpg" class="img-3">
+                    <i class="icon ion-md-expand"></i>
+                </a> 
+                 <a href="IMG/LS/erica/img-4.jpg" class="img-4">
+                    <i class="icon ion-md-expand"></i>
+                </a> 
+                 <a href="IMG/LS/erica/img-5.jpg" class="img-5">
+                    <i class="icon ion-md-expand"></i>
+                </a> 
+                 <a href="IMG/LS/erica/img-6.jpg" class="img-6">
+                    <i class="icon ion-md-expand"></i>
+                </a>
+                <a href="IMG/LS/erica/img-7.jpg" class="img-7">
+                    <i class="icon ion-md-expand"></i>
+                </a> 
+                <a href="IMG/LS/erica/img-8.jpg" class="img-8">
+                    <i class="icon ion-md-expand"></i>
+                </a> 
+            </div>               
+        </div>        
+        
+        <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+        <!--js file link-->
+        
+        <script>
+            let navbar = document.querySelector('.navbar');
+            document.querySelector('#menu-btn').onclick = () =>{
+            navbar.classList.toggle('active')
+            }
+        </script>
+        
+        <script>            
+            window.onscroll = function() {
+            if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+              document.getElementById("header").style.backgroundColor = "rgb(48, 48, 48)";
+                document.getElementById("btn").style.backgroundColor = "transparent";
+                } else {
+                    document.getElementById("btn").style.backgroundColor = "#af0d0d";
+                }
+            };            
+        </script>
+        
+        <script>
+            
+            function openChat() {
+                window.open("https://wa.me/+258842525842", "chat", "width=600,height=800");
+            }
+
+        </script>
+        
+    </body>
+</html>
