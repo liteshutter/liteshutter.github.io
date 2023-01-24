@@ -397,7 +397,8 @@ footer ul {
     }
     
     .box-container .box a{
-        align-items: center;
+        margin 0 auto;
+        display: block;
     }
 
 }
@@ -432,8 +433,9 @@ footer ul {
         text-align: center;   
     }
     
-    .box-container .box{
-        align-items: center;
+    .box-container .box a{
+        margin: 0 auto;
+        display: block;
     }
 
     section{
