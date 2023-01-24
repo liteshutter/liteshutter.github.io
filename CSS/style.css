@@ -392,8 +392,12 @@ footer ul {
         padding: 2rem;
     }
     
-    .box-container .box h3, p, a{
+    .box-container .box h3, p{
         text-align: center;
+    }
+    
+    .box-container .box a{
+        align-items: center;
     }
 
 }
@@ -424,8 +428,12 @@ footer ul {
         display: block;
     }
     
-    .box-container .box h3, p, a{
+    .box-container .box h3, p{
         text-align: center;   
+    }
+    
+    .box-container .box{
+        align-items: center;
     }
 
     section{
