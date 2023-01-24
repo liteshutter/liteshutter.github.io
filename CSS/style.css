@@ -225,6 +225,10 @@ section{
     color: var(--cyan);
 }
 
+.servicos .box-container .box a{
+    font-size: 1.5rem;
+}
+
 .text p{    
     font-size: 2rem;
     font-weight: 200;
