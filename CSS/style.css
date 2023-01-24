@@ -175,7 +175,7 @@ section{
     font-size: 1.5rem;
     border-radius: 1.5rem;
     border: .2rem solid var(--red);
-    color: #ffffff;
+    color: #130f40;
     background: var(--red);
     position: fixed;
     bottom: 20px;
@@ -397,7 +397,6 @@ footer ul {
     }
     
     .box-container .box a{
-        margin 0 auto;
         display: block;
     }
 
@@ -433,8 +432,7 @@ footer ul {
         text-align: center;   
     }
     
-    .box-container .box a{
-        margin: 0 auto;
+    .box-container .box a
         display: block;
     }
 
