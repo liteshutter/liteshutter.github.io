@@ -132,40 +132,6 @@ body{
 
 }
 
-.home .content h3{
-    opacity: 0%;
-    text-align: center;
-    color: #fff;
-    font-size: 3rem;
-    padding: 40rem 10rem;
-    text-transform: none;
-}
-
-.home .content h3 span{
-    color: var(--red);
-}
-
-.home .content h3 span:hover{
-    color: var(--cyan);
-    transition: .7s;
-}
-
-.home .content p span{
-    color: var(--red)
-}
-
-.home .content p span:hover{
-    color: var(--cyan);
-    transition: .7s;
-}
-
-.home .content p{
-    text-align: center;
-    color: #fff;
-    font-size: 2rem;
-    text-transform: none;
-}
-
 #menu-btn{
     display: none;
 }
@@ -203,22 +169,23 @@ section{
 }
 
 .home #btn{
-    margin-top: 1rem;
-    display: inline-block;
+    display: flex;
     padding: .9rem 2rem;
     font-size: 1.5rem;
     border-radius: 1.5rem;
     border: .2rem solid var(--red);
     color: #ffffff;
-    cursor: pointer;
     background: var(--red);
     position: fixed;
+    bottom: 20px;
+    right: 20px;
 }
 
 .home #btn:hover{
     background: var(--cyan);
     color: #fff;
     border: .2rem solid var(--cyan);
+    cursor: pointer;
 }
 
 .box img{
