@@ -391,6 +391,10 @@ footer ul {
     #header{
         padding: 2rem;
     }
+    
+    .box-container .box h3, p, a{
+        text-align: center;
+    }
 
 }
 
@@ -418,6 +422,10 @@ footer ul {
         font-size: 2rem;
         margin: 2rem 2.5rem;
         display: block;
+    }
+    
+    .box-container .box h3, p, a{
+        text-align: center;   
     }
 
     section{
