@@ -169,6 +169,7 @@ section{
 }
 
 .home #btn{
+    /*margin-top: 1rem;*/
     display: flex;
     padding: .9rem 2rem;
     font-size: 1.5rem;
@@ -184,7 +185,7 @@ section{
 .home #btn:hover{
     background: var(--cyan);
     color: #fff;
-    border: .2rem solid var(--cyan);
+    border: .2rem solid var(--cyan);    
     cursor: pointer;
 }
 
