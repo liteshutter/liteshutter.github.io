@@ -175,7 +175,7 @@ section{
     font-size: 1.5rem;
     border-radius: 1.5rem;
     border: .2rem solid var(--red);
-    color: #130f40;
+    color: #fff;
     background: var(--red);
     position: fixed;
     bottom: 20px;
