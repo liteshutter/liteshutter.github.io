@@ -212,11 +212,13 @@ section{
     padding: 0rem 10rem;
 }
 
-.servicos .box-container .btn{
+.servicos .btn{
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: .1rem 2rem;
+    margin-left: 30%;
+    width: 30%;
+    height: 5%;
     font-size: 1.5rem;
     border-radius: 1.5rem; 
     color:var(--red);
@@ -397,6 +399,10 @@ footer ul {
     .box-container .box h3, p{
         text-align: center;
     }
+    
+    .box-container .btn{
+        margin: auto;
+    }
 }
 
 @media (max-width:768px){
@@ -427,6 +433,10 @@ footer ul {
     
     .box-container .box h3, p{
         text-align: center;   
+    }    
+    
+    .box-container .btn{
+        margin: auto;
     }
     
     section{
