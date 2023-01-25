@@ -395,11 +395,6 @@ footer ul {
     .box-container .box h3, p{
         text-align: center;
     }
-    
-    .box-container .box a{
-        display: block;
-    }
-
 }
 
 @media (max-width:768px){
@@ -432,10 +427,6 @@ footer ul {
         text-align: center;   
     }
     
-    .box-container .box a
-        display: block;
-    }
-
     section{
         padding: 2rem;
     }    
