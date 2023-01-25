@@ -201,6 +201,16 @@ section{
     gap: 1.5rem;
 }
 
+.servicos h1{
+    text-transform: capitalize;
+    padding: 50px 0 0px;
+}
+
+.portfolio h1{
+    text-transform: capitalize;
+    padding: 50px 0 0px;
+}
+
 .servicos .box-container h3{
     font-size: 2rem;
     padding: 0rem 11.5rem;
