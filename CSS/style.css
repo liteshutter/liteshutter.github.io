@@ -304,6 +304,45 @@ section{
     height: auto;
 }
 
+.products .product-slider{
+    padding: 1rem;
+}
+
+.products .product-slider:first-child{
+    padding: 2rem;
+}
+
+.products .product-slider .box{
+    display: flex;
+    background: #fff;
+    text-align: center;
+    padding: 3rem 2rem;
+    transition: .2s linear;
+}
+
+.products .product-slider img:hover{
+    cursor: pointer;
+    animation: shake 0.55s;
+    filter: grayscale(80%);
+}
+
+.products .product-slider .box img{   
+    width: 35rem;
+}
+
+
+.products .product-slider .box h3{
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.products .product-slider .box p{
+    font-size: 1.5rem;
+}
+
+.products .product-slider .box .preco{
+    font-size: 1.2rem;
+}
 
 footer{
     background-color: dimgray;
