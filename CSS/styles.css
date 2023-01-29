@@ -273,48 +273,6 @@ body{
     background-image: url("/IMG/LS/erica/img-8.jpg");
 }
 
-.contactos{
-    background-color: var(--black);
-    color: white;
-}
-
-.contactos iframe{
-    height: 200px;
-}
-
-.contactos .col-4{
-    display: inline-block;
-    margin-right: 0px;
-    line-height: 40px;
-    border-radius: 5px;
-    text-align: center;
-}
-
-.contactos .col-4 h2{
-    font-size: 2rem;
-    font-weight: 600;
-    text-transform: capitalize;
-}
-
-.contactos img{
-        margin: -10px;
-}
-
-.contactos h3{
-    margin-top: -10px;
-    font-size: 1.4rem;    
-    text-transform: capitalize;
-}
-
-.contactos span{
-    color: crimson;
-}
-
-.contactos p{
-    font-size: 1.2rem;  
-    text-transform: capitalize;
-}
-
 @media screen and (max-width: 900px) {
     .img-gallery{
         grid-template-areas:
@@ -360,34 +318,6 @@ body{
         font-size: 2rem;
         margin: 2rem 2.5rem;
         display: block;
-    }
-    
-    .contactos iframe{
-        display: block;
-        margin: auto;
-        width: 325px;
-        height: 150px;
-        align-items: center;
-        justify-content: center;   
-        border-radius: 5px;
-    }
-    
-    .contactos .col-4{
-        min-width: 325px;
-    }
-    
-    .contactos img{
-        margin: -10px;
-    }
-    
-    .contactos h3{
-        margin-top: -10px;
-        font-size: 1.4rem;
-        text-transform: capitalize;
-    }
-    
-    .contactos span{
-        color: crimson;
     }
 }
     
