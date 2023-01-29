@@ -103,12 +103,11 @@ body{
     width: 4.5rem;
     line-height: 4.5rem;
     border-radius: .5rem;
+    background: #fff;
     color: var(--black);
     font-size: 2rem;
     cursor: pointer;
-    text-align: center;
-    background-image: url(/IMG/ICONS/menu_50px.png);    
-    background-size: 35px;
+    text-align: center;    
 }
 
 .home{
@@ -485,7 +484,7 @@ section{
 
     #header .navbar a{
         font-size: 2rem;
-        margin: 2rem 2.5rem;
+        margin: 1.3rem 2.5rem;
         display: block;
     }
     
