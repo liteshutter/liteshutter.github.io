@@ -85,7 +85,7 @@ body{
     transition: .7s;
 }
 
-#header .icons div{
+/*#header .icons div{
     height: 4.5rem;
     width: 4.5rem;
     line-height: 4.5rem;
@@ -96,6 +96,19 @@ body{
     margin-right: .3rem;
     cursor: pointer;
     text-align: center;
+}*/
+
+#menu-btn{
+    height: 4.5rem;
+    width: 4.5rem;
+    line-height: 4.5rem;
+    border-radius: .5rem;
+    color: var(--black);
+    font-size: 2rem;
+    cursor: pointer;
+    text-align: center;
+    background-image: url(/IMG/ICONS/menu_50px.png);    
+    background-size: 35px;
 }
 
 .home{
