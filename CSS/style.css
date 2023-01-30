@@ -207,6 +207,25 @@ section{
     width: 340px;
 }
 
+.servicos .box{
+    display: block;
+}
+
+.servicos .image{
+    min-height: 45rem;
+    height: 45rem;
+}
+
+.servicos .i_mage{
+    min-height: 45rem;
+    height: 45rem;
+}
+
+.servicos .i_mage img{
+    margin-top: 25%;
+}
+
+
 .servicos .box-container{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
@@ -532,7 +551,20 @@ section{
     .contactos span{
         color: crimson;
     }
-
+    
+    .servicos .box{
+        display: block;
+        text-align: center;
+    }
+    
+    .servicos .image{
+        min-height: 60rem;
+        margin-bottom: 0rem;
+    }
+    
+    .servicos .i_mage{
+        margin-top: 0px;
+    }
 }
 
 @media (max-width:450px){
