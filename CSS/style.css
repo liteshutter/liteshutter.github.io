@@ -559,7 +559,7 @@ section{
     
     .servicos .image{
         min-height: 60rem;
-        margin-bottom: 0rem;
+        margin-bottom: -10rem;
     }
     
     .servicos .i_mage{
